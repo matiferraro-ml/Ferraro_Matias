@@ -1,4 +1,4 @@
-package integrador.ej4;
+package ej4;
 
 public class Fraccion {
 

@@ -3,7 +3,6 @@ package ejerc;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Stream;
 
 import static java.util.Comparator.comparing;
 
@@ -22,7 +21,6 @@ public class StringUtil {
 	// para completar la longitud mencionada
 	// Ejemplo lpad("5",3,'0') ==> "005"
 	public static String lpad(String s, int n, char c) {
-		//evalua la longitud de la cadena para iterar y le concatena a la izquierda el caracter que recibe n veces
 		while(s.length() != n) {
 			s = c + s;
 		}
@@ -52,10 +50,14 @@ public class StringUtil {
 		return maxString.length();
 	}
 
-	// Completa los elemento del arr agregando caracteres c a la izquierda, dejando a todos con la longitud del mayor
+	// Completa los elementos del arr agregando caracteres c a la izquierda, dejando a todos con la longitud del mayor
 	public static void lNormalize(String arr[], char c)	{
-
-		// Falta
-
+		String arrNew[] = {};
+		int i = 0;
+		int n = maxLength(arr);
+		for(String s : arr) {
+			arrNew[i] = (lpad(s, n, c));
+			i++;
+		}
 	}
 }

@@ -1,4 +1,4 @@
-package integrador.ej3;
+package ej3;
 
 public class Libro {
 

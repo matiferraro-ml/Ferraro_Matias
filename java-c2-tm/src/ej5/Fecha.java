@@ -1,4 +1,4 @@
-package integrador.ej5;
+package ej5;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

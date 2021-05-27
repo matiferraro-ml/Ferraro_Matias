@@ -1,4 +1,4 @@
-package integrador.ej1;
+package ej1;
 
 public class CuentaCorriente {
 

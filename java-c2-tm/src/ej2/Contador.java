@@ -1,4 +1,4 @@
-package integrador.ej2;
+package ej2;
 
 public class Contador {
 
